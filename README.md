@@ -1,6 +1,9 @@
-# backend-process-talker README
+# VsCode Extension: backend-process-talker
 
 An extension to run a backend child process.
+
+See [the design document](design-doc.md) for rationale, design and other
+details.
 
 ## Status
 

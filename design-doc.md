@@ -30,6 +30,8 @@ A trade-off is that using Theia Extensions, you get full control. Here we are re
 
 ### System-context-diagram
 
+![plantuml 0](http://www.plantuml.com/plantuml/proxy?cache=no&idx=0&src=https://raw.githubusercontent.com/krissrex/vscode-extension-backend-talker/master/design-doc.md)
+
 ```plantuml
 @startuml
 node openVsx {
@@ -58,6 +60,8 @@ workspace --> repo : clone
 @enduml
 ```
 
+![plantuml 1](http://www.plantuml.com/plantuml/proxy?cache=no&idx=1&src=https://raw.githubusercontent.com/krissrex/vscode-extension-backend-talker/master/design-doc.md)
+
 ```plantuml
 @startuml
 node browser {
@@ -76,6 +80,8 @@ node backend {
 
 @enduml
 ```
+
+![plantuml 2](http://www.plantuml.com/plantuml/proxy?cache=no&idx=2&src=https://raw.githubusercontent.com/krissrex/vscode-extension-backend-talker/master/design-doc.md)
 
 ```plantuml
 @startuml
