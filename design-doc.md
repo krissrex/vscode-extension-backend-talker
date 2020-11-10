@@ -30,7 +30,12 @@ A trade-off is that using Theia Extensions, you get full control. Here we are re
 
 ### System-context-diagram
 
+### Deployment diagram
+
 ![plantuml 0](http://www.plantuml.com/plantuml/proxy?cache=no&idx=0&src=https://raw.githubusercontent.com/krissrex/vscode-extension-backend-talker/master/design-doc.md)
+
+<details><summary>PlantUML code</summary>
+<p>
 
 ```plantuml
 @startuml
@@ -59,8 +64,15 @@ workspace --> repo : clone
 
 @enduml
 ```
+</p>
+</details>
+
+### Component diagram
 
 ![plantuml 1](http://www.plantuml.com/plantuml/proxy?cache=no&idx=1&src=https://raw.githubusercontent.com/krissrex/vscode-extension-backend-talker/master/design-doc.md)
+
+<details><summary>PlantUML code</summary>
+<p>
 
 ```plantuml
 @startuml
@@ -81,7 +93,15 @@ node backend {
 @enduml
 ```
 
+</p>
+</details>
+
+### Interaction diagram
+
 ![plantuml 2](http://www.plantuml.com/plantuml/proxy?cache=no&idx=2&src=https://raw.githubusercontent.com/krissrex/vscode-extension-backend-talker/master/design-doc.md)
+
+<details><summary>PlantUML code</summary>
+<p>
 
 ```plantuml
 @startuml
@@ -99,6 +119,9 @@ user -> [Theia]: uses
 [backend-process-talker] <-> [Ecore tool jar]: commands
 @enduml
 ```
+
+</p>
+</details>
 
 ### Degree of constraint
 
