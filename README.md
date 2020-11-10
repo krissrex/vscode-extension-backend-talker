@@ -1,9 +1,9 @@
 # VsCode Extension: backend-process-talker
 
 An extension to run a backend child process.  
-The backend process is a `.jar` bundled in the extension.
+The backend process is `lib/ecore-tool-process.jar` bundled in the extension.
 It is created from
-[krissrex/dummy-process-communication](https://github.com/krissrex/dummy-process-communication).
+[krissrex/dummy-process-communication](https://github.com/krissrex/dummy-process-communication) and simply echoes back what it is sent, in a json format.
 
 See [the design document](design-doc.md) for rationale, design and other
 details.
