@@ -1,6 +1,9 @@
 # VsCode Extension: backend-process-talker
 
-An extension to run a backend child process.
+An extension to run a backend child process.  
+The backend process is a `.jar` bundled in the extension.
+It is created from
+[krissrex/dummy-process-communication](https://github.com/krissrex/dummy-process-communication).
 
 See [the design document](design-doc.md) for rationale, design and other
 details.
