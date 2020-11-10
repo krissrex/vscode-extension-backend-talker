@@ -30,7 +30,7 @@ A trade-off is that using Theia Extensions, you get full control. Here we are re
 
 ### System-context-diagram
 
-### Deployment diagram
+#### Deployment diagram
 
 ![plantuml 0](http://www.plantuml.com/plantuml/proxy?cache=no&idx=0&src=https://raw.githubusercontent.com/krissrex/vscode-extension-backend-talker/master/design-doc.md)
 
@@ -67,7 +67,7 @@ workspace --> repo : clone
 </p>
 </details>
 
-### Component diagram
+#### Component diagram
 
 ![plantuml 1](http://www.plantuml.com/plantuml/proxy?cache=no&idx=1&src=https://raw.githubusercontent.com/krissrex/vscode-extension-backend-talker/master/design-doc.md)
 
@@ -96,7 +96,7 @@ node backend {
 </p>
 </details>
 
-### Interaction diagram
+#### Interaction diagram
 
 ![plantuml 2](http://www.plantuml.com/plantuml/proxy?cache=no&idx=2&src=https://raw.githubusercontent.com/krissrex/vscode-extension-backend-talker/master/design-doc.md)
 
