@@ -1,4 +1,6 @@
-# VsCode Extension: backend-process-talker
+# Prototype: VsCode Extension: backend-process-talker
+
+This prototype was developed as part of a thesis: https://github.com/krissrex/ntnu-tdt4501-preproject-article.
 
 An extension to run a backend child process.  
 The backend process is `lib/ecore-tool-process.jar` bundled in the extension.
